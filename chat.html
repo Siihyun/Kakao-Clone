@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7801b5d89d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chats | Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__batery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header>
+      <div class="header__header-column">
+        <a href="index.html" class="header__back-to-index">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
+        <h1 class="header__title">활력송</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="chat">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">2020 3월 17일 금요일</span>
+        <li class="incoming-message message">
+          <img
+            src="images/minsong_profile.jpg"
+            class="g-avatar message_avatar"
+          />
+          <div class="message_content">
+            <span class="message__author">활력송</span>
+            <div class="message__bubble">집에 가는 중</div>
+          </div>
+          <span class="message_timestamp">11:54</span>
+        </li>
+
+        <li class="incoming-message message">
+          <span class="message_timestamp">11:55</span>
+          <div class="message_content">
+            <div class="message__bubble">그래?</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
