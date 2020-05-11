@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 @import "reset.css";
-@import "status-bar.css";
 @import "header.css";
+@import "status-bar.css";
+@import "nav.css";
+
+* {
+  box-sizing: border-box;
+  /* 테두리를 기준으로 설정 */
+  /* content-box는 테두리 포함하지 않고 크기 설정(default),
+     border-box는 테두리 포함해서 크기 설정 */
+}
 
 body {
   background-color: white;

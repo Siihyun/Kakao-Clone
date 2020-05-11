@@ -1,17 +1,36 @@
-header {
-  display: flex; /* 한줄에 표현 */
-  justify-content: space-between; /* 사이에 공간 */
+.header {
+  display: flex; /* 한줄에 표현(flex box화) */
+  justify-content: space-between; /* element들 사이를 공백으로 */
   align-items: center; /* 가운데 정렬 */
   margin-bottom: 30px; /* 밑 마진 */
 }
 
-header .header__title {
+.header .header__title {
   font-size: 24px;
   font-weight: 700;
 }
 
-header .header__icon {
+.header .header__icon {
   font-size: 20px;
   margin-left: 20px;
-  cursor: pointer;
+  cursor: pointer; /* 갖다대면 pointer모양으로 바뀜 */
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-to-index {
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+a {
+  color: inherit; /* a 태그에 부모의 색을 그대로 입힌다 */
 }
